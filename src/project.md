@@ -17,3 +17,7 @@
 ## We install sass for scss (also called sass)
 - npm i sass
 ## Add the color picker chrome extension for check any website color which color is used 
+
+## Creating Right part of the screen to add new folders and create the langauge wise files in screen 
+
+## Take all the icons from (https://react-icons.github.io/react-icons/search/#q=)
