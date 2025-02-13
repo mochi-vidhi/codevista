@@ -1,4 +1,4 @@
 # codevista
 ![alt text](image.png)
 <hr/>
-![alt text](image-1.png)
+<img src="./image-1.png>
