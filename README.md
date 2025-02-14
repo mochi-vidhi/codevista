@@ -8,6 +8,6 @@
 =======
 <img src="./image-1.png>
 <hr/>
-[![Watch the video](videoVista.mp4)](./videoVista.mp4)
+[Watch the Demo](https://github.com/mochi-vidhi/codevista/blob/main/videoVista.mp4)
 
 >>>>>>> a631389 (today changes)
