@@ -1,0 +1,72 @@
+.modal-container{
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(153,153,153,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .modal-body{
+        background-color: #fff;
+        color:#121212;
+        padding: 50px;
+        
+        box-shadow: 4px 4px 10px gray;
+        border-radius: 10px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+
+        .item{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap:15px;
+            label{
+                font-size: 20px;
+                color: #121212;
+                font-weight: 600;
+                text-transform: capitalize;
+            }
+            input,section{
+                background-color: rgb(241, 160, 11);
+                border: 2px solid #121212;
+                padding: 8px;
+                border-radius: 5px;
+                color: #121212;
+                font-size: 16px;
+                font-weight: 600;
+            }
+            input:focus{
+               outline: none; 
+            }
+            button{
+                border: none;
+                padding: 20px;
+                border-radius: 10px;
+                background-color:#640D5F;
+                font-size: 17px;
+                font-weight: 600;
+                cursor: pointer;
+                transition-duration: 1s;
+            }
+            button:hover{
+                background-color: #D91656;
+                color:#121212
+            }
+        }
+        .close{
+            position: absolute;
+            top:10px;
+            right:10px;
+            .closeIcon{
+                height:30px;
+                width: 30px;
+                cursor:pointer;
+            }
+        }
+    }
+}

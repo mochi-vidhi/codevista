@@ -26,6 +26,9 @@
         }
     }
     .folder-container{
+        .icons{
+            font-size: 30px; 
+        }
         .folder-header{
             display: flex;
             justify-content: space-between;
@@ -51,9 +54,41 @@
                     }
                    
                 }
-                .icons{
-                    font-size: 30px; 
+                
+            }
+        }
+        .cards-container{
+            padding: 20px;
+            cursor: pointer;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: space-between;
+            .card{
+                display:flex;
+                border-radius: 10px;
+                box-shadow: 2px 2px 5px gray;
+                width: 40%;
+                justify-content: space-between;
+                align-items: center;
+                padding: 10px;
+                transition:0.5s ease-in-out;
+                img{
+                    width:80px; 
                 }
+                .title-container{
+                    display: flex;
+                    flex-direction: column;   
+                }
+                .card-item{
+                    display: flex;
+                    gap:5px;
+                }
+            }
+            .card:hover{
+                box-shadow: 2px 2px 15px gray;
+                scale:1.1;
+                outline: 2px solid white;
             }
         }
     }
