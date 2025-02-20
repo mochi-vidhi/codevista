@@ -11,4 +11,5 @@
 [Watch the Demo](https://github.com/mochi-vidhi/codevista/blob/main/videoVista.mp4)
 
 >>>>>>> a631389 (today changes)
-![alt text](image-2.png)
+<img src="./image-2.png">
+<hr/>
