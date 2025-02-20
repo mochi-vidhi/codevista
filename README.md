@@ -4,7 +4,7 @@
 
 <img src="./image-1.png">
 <hr/>
-<img src="./image-1.png">
+<video src="./videoVista.mp4">
 <hr/>
 <img src="./image-2.png">
 
