@@ -1,5 +1,10 @@
 # 🌟 CodeVista — Your Elegant Online Code Editor
 
+![image](https://github.com/user-attachments/assets/6994d5a0-a8f8-47ac-8881-1c61e2795c8c)
+
+<hr>
+
+
 Welcome to **CodeVista**, a powerful and beautifully crafted code editor built using **React** and **Monaco Editor** — the same engine behind Visual Studio Code. Designed for clarity, focus, and flexibility, CodeVista helps you code efficiently, whether you’re writing in **C++**, **Java**, **Python**, or **JavaScript**.
 
 <hr>
